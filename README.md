@@ -8,7 +8,7 @@ Link :  https://www.kaggle.com/datasets/rajanghimire/person-segmentation <br>
 Format: ```SQLite``` <br>
 Size : ```x GB```
 * * * 
-This dataset contains news data scraped from popular Nepali news sites such as Ratopati, Setopati, Oninekhabar, and Gorkhapatra. The data contains metadata such as publication date, category, language, and URL.This dataset contains news data scraped from popular Nepali news sites such as Ratopati, Setopati, Oninekhabar, and Gorkhapatra. The data contains metadata such as publication date, category, language, and URL.
+This dataset contains news data scraped from popular Nepali news sites such as Ratopati, Setopati, Oninekhabar, and Gorkhapatra. The data contains metadata such as publication date, category, language, and URL.
 ![](example.png)
  The data is stored in SQLite database and you can use the following script to convert SQLite database to CSV. 
 ```python 
@@ -25,7 +25,7 @@ db_df.to_csv('database.csv', index=False)
 
 ## Neplai Preprocessed Text: 
 * * *
-This dataset contains preprocessed Nepali raw text scraped from different nepali sources. (Mostly old news and articles form Wikipedia)
+This dataset contains preprocessed Nepali raw text scraped from different Nepali sources. (Mostly old news and articles from Wikipedia) 
 
 Link 1 :  https://www.kaggle.com/datasets/rajanghimire/375-gb <br>
 
